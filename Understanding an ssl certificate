@@ -33,7 +33,45 @@ SSL Cerificate:
   SCT : https://www.namecheap.com/support/knowledgebase/article.aspx/9588/38/what-is-certificate-transparency
   Subject Key Identifier (SKI):
     Subject Key Identifier extension provides a means of identifying certificates that contain a particular public key.  This is a hash value of the SSL certificate.
-  for rest :::
+    
+  Key Usage:
+    The Key Usage extensions define what a particular certificate may be used for (assuming the application can parse this extension).         The following extensions are included in an SSL certificate:
+
+      Digital Signature: (Taken from http://www.ietf.org/rfc/rfc3280.txt) The digitalSignature bit is asserted when the subject public    key is used with a digital signature mechanism to support security services other than certificate signing (bit 5), or CRL signing (bit 6). Digital signature mechanisms are often used for entity authentication and data origin authentication with integrity.
+
+      Key Encipherment: (Taken from http://www.ietf.org/rfc/rfc3280.txt) The keyEncipherment bit is asserted when the subject public key is used for key transport. An example of Key Encipherment is the SSL handshake, where the two applications use asymmetric encryption to wrap around the exchange of a secret key that is ultimately used for the session.
+      
+      
+  CRL Distribution Points:
+      The CRL Distribution Points extension provides the location of the corresponding Certificate Revocation List (CRL) for the SSL certificate.
+      
+      
+   Certificate Policies:
+     The Certificate Policies extension defines the legal rules associated with a particular certificate’s usage.
+     
+   Extended Key Usage (EKU):
+This extension indicates one or more purposes for which the certified public key may be used, in addition to or in place of the basic purposes already indicated in the key usage extension.  Symantec SSL Certificates include the following extensions:
+
+Server Authentication: (Taken from http://www.ietf.org/rfc/rfc3280.txt) TLS WWW server authentication. Key usage bits that may be consistent: digitalSignature, keyEncipherment or keyAgreement
+
+Client Authentication: (Taken from http://www.ietf.org/rfc/rfc3280.txt) TLS WWW client authentication. Key usage bits that may be consistent: digitalSignature and/or keyAgreement
+
+Symantec Secure Site Pro  (Premium) SSL certificates also have the following extension: 2.16.840.1.113730.4.1 - Netscape Server Gated Crypto (nsSGC)
+
+  Authority Key Identifier (AKI): Link to parent (CA).  This AKI value would match the SKI value of the Intermediate CA certificate.
+
+  Authority Info Access: The Authority Info Access extension provides information about how to access information about a CA, such as OCSP validation and CA policy data.
+
+
+  Thumbprint: This extension provides the actual hash to ensure that the certificate has not been tampered with.
+
+
+
+
+
+
+
+  Reference :::
   https://knowledge.symantec.com/support/partner/index?page=content&actp=CROSSLINK&id=SO18140
 
   
