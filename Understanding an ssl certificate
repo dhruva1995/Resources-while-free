@@ -30,6 +30,8 @@ SSL Cerificate:
     Subject Type=End Entity        : Holds a value either of (CA or End Entity) meaning the party this cert belongs is a CA or an End User
     Path Length Constraint=None    : Number of CA certs that be present Under this cert.
   
+  SCT : https://www.namecheap.com/support/knowledgebase/article.aspx/9588/38/what-is-certificate-transparency
+  
   for rest :::
   https://knowledge.symantec.com/support/partner/index?page=content&actp=CROSSLINK&id=SO18140
 
