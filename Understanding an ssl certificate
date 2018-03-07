@@ -31,7 +31,8 @@ SSL Cerificate:
     Path Length Constraint=None    : Number of CA certs that be present Under this cert.
   
   SCT : https://www.namecheap.com/support/knowledgebase/article.aspx/9588/38/what-is-certificate-transparency
-  
+  Subject Key Identifier (SKI):
+    Subject Key Identifier extension provides a means of identifying certificates that contain a particular public key.  This is a hash value of the SSL certificate.
   for rest :::
   https://knowledge.symantec.com/support/partner/index?page=content&actp=CROSSLINK&id=SO18140
 
