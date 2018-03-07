@@ -1,0 +1,38 @@
+SSL Cerificate:
+  version : version of the X.509 certificate.
+  Serial Number : A number that uniquely identifies the certificate and is issued by the certification authority.
+  Signature Algoritm :  SignatureAlgorithm is the algorithm used to sign the content using the private key
+  Signature Hash Algoritm : SignatureHashAlgorithm is used to hash the content before signing
+  Issuer : Subject of the Issuer.
+  valid Ffrom : not Before 
+  validate to : not after
+  Subject : subject of the end entity
+  Public Key : n in RSA Algorithm.
+  Public Key Parameter : holds an elliptic curve in ECDSA Certificate (typically is 00 05 means 0 in DER)
+  SAN : Holds Subject alternative name
+     SubjectAltName ::= GeneralNames
+
+     GeneralNames :: = SEQUENCE SIZE (1..MAX) OF GeneralName
+
+     GeneralName ::= CHOICE {
+        otherName                       [0]     OtherName,
+        rfc822Name                      [1]     IA5String,
+        dNSName                         [2]     IA5String,
+        x400Address                     [3]     ORAddress,
+        directoryName                   [4]     Name,
+        ediPartyName                    [5]     EDIPartyName,
+        uniformResourceIdentifier       [6]     IA5String,
+        iPAddress                       [7]     OCTET STRING,
+        registeredID                    [8]     OBJECT IDENTIFIER
+     }
+   
+  Basic constrains:
+    Subject Type=End Entity        : Holds a value either of (CA or End Entity) meaning the party this cert belongs is a CA or an End User
+    Path Length Constraint=None    : Number of CA certs that be present Under this cert.
+  
+  for rest :::
+  https://knowledge.symantec.com/support/partner/index?page=content&actp=CROSSLINK&id=SO18140
+
+  
+  
+  
