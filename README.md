@@ -5,3 +5,10 @@ Good resources to me to follow up when free
  - Node js : https://www.coursera.org/learn/server-side-development/home/welcome
  - Spring boot quick start : https://javabrains.io/courses
  - Angular2 : https://www.youtube.com/watch?v=zj7_4VDFQPA&list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW, https://www.youtube.com/watch?v=j1Vp8zEz17U
+
+
+
+
+# Things to Know:
+ - Need to have a DB in hand knowledge over a NoSQL DB (Mongo, Couchbase), a Timeseries DB (Influx DB) and a Graph DB(Dynamo DB)
+ - Need to have a full fledged knowledge over RDBMS (atleast go through the ORELY book over RDBMS).
