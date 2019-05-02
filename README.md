@@ -10,5 +10,5 @@ Good resources to me to follow up when free
 
 
 # Things to Know:
- - Need to have a DB in hand knowledge over a NoSQL DB (Mongo, Couchbase), a Timeseries DB (Influx DB) and a Graph DB(Dynamo DB)
+ - Need to have a DB in hand knowledge, over a NoSQL DB (Mongo, Couchbase), a Timeseries DB (Influx DB) and a Graph DB(Dynamo DB)
  - Need to have a full fledged knowledge over RDBMS (atleast go through the ORELY book over RDBMS).
