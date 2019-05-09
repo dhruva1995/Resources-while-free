@@ -1,0 +1,35 @@
+For Backtracking follow 
+  https://www.youtube.com/user/martystepp/videos 
+  
+  skeletons
+  ------------------------------------------------------------------------------
+  backtrackingMethod() {
+    if() {
+    
+    } else {
+    
+    
+    }
+  }
+  
+  
+  -------------------------------------------------------------------------------
+  
+  backTrackingHelperMethod (availableChoices, previouslyChoosen) {
+    if(availableChoices is not empty or some other condition) {
+    
+    } else {
+      //choose one element from avaialbleChoices add to previouslyChoosen and remove it from availableChoices and hold that element
+      //.....
+      //call backTrackingHelperMethod(avaialableChoices, previouslyChoosen)
+      //.....
+      //reset the state back, meaning remove the element from the previouslyChoosen and add it back to available.
+    }
+  }
+  
+  
+  -------------------------------------------------------------------------------
+  
+  For RedBlack trees.
+    Follow Robert sedgewick Algorithms course first see 2-3 trees and then understand the representation of Left Leaning Red Black Trees, Insertion into LLRB trees is provided int the course while deletion is not mentioned but first try to understand the 2-3 trees deletion from http://www.cs.princeton.edu/~dpw/courses/cos326-12/ass/2-3-trees.pdf
+    Try to map the deletion part as well from https://www.cs.princeton.edu/~rs/talks/LLRB/LLRB.pdf
