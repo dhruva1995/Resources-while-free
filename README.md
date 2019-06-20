@@ -5,7 +5,9 @@ Good resources to me to follow up when free
  - Node js : https://www.coursera.org/learn/server-side-development/home/welcome
  - Spring boot quick start : https://javabrains.io/courses
  - Angular2 : https://www.youtube.com/watch?v=zj7_4VDFQPA&list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW, https://www.youtube.com/watch?v=j1Vp8zEz17U
-
+- Need a through preparation over permutation and combination (Not a begineer level but an Expert level preparation).
+  For getting started https://www.udemy.com/dontmemorise_permutations_combinations/learn/v4/overview
+  If you are really serious of solving this take this http://math.sfsu.edu/federico/Clase/EC/ec.html .
 
 
 
