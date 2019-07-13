@@ -8,7 +8,7 @@ Good resources to me to follow up when free
 - Need a through preparation over permutation and combination (Not a begineer level but an Expert level preparation).
   For getting started https://www.udemy.com/dontmemorise_permutations_combinations/learn/v4/overview
   If you are really serious of solving this take this http://math.sfsu.edu/federico/Clase/EC/ec.html .
-
+- Kotlin tutorial @https://www.youtube.com/watch?v=F9UC9DY-vIU
 
 
 # Things to Know:
