@@ -10,6 +10,7 @@ Good resources to me to follow up when free
   If you are really serious of solving this take this http://math.sfsu.edu/federico/Clase/EC/ec.html .
 - Kotlin tutorial @https://www.youtube.com/watch?v=F9UC9DY-vIU
 - Brush up HTML And CSS at freecodecamp and go though this https://youtu.be/_xkSvufmjEs
+- Graph Algorithms at https://youtu.be/09_LlHjoEiY
 
 
 # Things to Know:
