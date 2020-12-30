@@ -1,3 +1,7 @@
+# Sites to see
+ - https://www.udacity.com/courses/all
+ 
+
 # Courses to do
  - https://www.udacity.com/course/high-performance-computer-architecture--ud007 Do this first!
 
