@@ -1,3 +1,7 @@
+# Courses to do
+ - https://www.udacity.com/course/high-performance-computer-architecture--ud007 Do this first!
+
+
 # Resources-while-free
 Good resources to me to follow up when free
 
