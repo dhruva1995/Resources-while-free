@@ -1,3 +1,6 @@
+## Resume preparation guigance: 
+https://www.youtube.com/watch?v=KFaugkGVeNQ
+
 # Sites to see
  - https://www.udacity.com/courses/all
  
